@@ -35,7 +35,7 @@
         android:inputType="textPassword"
         android:layout_marginBottom="24dp" />
 
-    <!-- 下面是包含两个按钮的横向布局 -->
+    <!-- 这里是背景变黑的两个按钮 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,6 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginEnd="8dp"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
             android:text="Log In" />
 
         <Button
@@ -55,6 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginStart="8dp"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
             android:text="Cancel" />
     </LinearLayout>
 
